@@ -1,0 +1,16 @@
+IMPORTANT NOTICE: this source code only applies if you download this content directly from GitHub @Nurhalim-tech
+If you are a free internet user download it through another website, then the owner will not be responsible
+responsible for all forms, modifications, to changes which does not fit on all components
+
+==================================================
+gambar = imread('alpukat1.jpg');
+suml = sum(sum(gambar));
+ukuran = size(gambar);
+warna = suml./( ukuran(1) * ukuran (2) );
+
+data_latih(1,1) = warna(1);
+data_latih(2,1) = warna(2);
+data_latih(3,1) = warna(3);
+==================================================
+
+fyi : this code for only running in MatLab Software
